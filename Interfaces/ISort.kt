@@ -1,5 +1,7 @@
 package practiceFive.Interfaces
 
+import practiceFive.Classes.DataBase.Expense
+
 interface ISort {
-    fun sort()
+    fun sort(list: MutableList<Expense>)
 }
